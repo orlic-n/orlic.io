@@ -1,0 +1,132 @@
+.nav-link {
+  color: rgb(0, 0, 0);
+}
+
+.navbar-nav .nav-link.active {
+  color: rgb(251, 169, 102);
+}
+
+.navbar-brand img {
+  width: 120px;
+}
+
+.navbar-toggler {
+  background-color: rgb(246, 176, 135);
+}
+
+.sidebar {
+  border-style: solid;
+  border-radius: 7px;
+  border-width: 0.5px;
+  border-color: rgb(175, 173, 173);
+}
+
+.container-fluid > .navbar-brand {
+  margin-left: 0.5em;
+}
+
+.card {
+  background-color: rgb(242, 242, 242);
+}
+
+.card-body > .for-btn > .btn-primary {
+  background-color: rgb(251, 169, 102);
+  border-color: rgb(251, 169, 102);
+  color: black;
+  align-self: center;
+  padding-left: 3em;
+  padding-right: 3em;
+}
+
+.for-btn {
+  display: flex;
+  justify-content: center;
+}
+
+.sidebar a {
+  text-decoration: none;
+}
+
+.carousel-indicators > .noactive {
+  background-color: rgb(0, 0, 0);
+}
+
+.carousel-control-next > .carousel-control-next-icon {
+  background-image: url(arrow-next-svgrepo-com.svg);
+}
+
+.carousel-control-prev > .carousel-control-prev-icon {
+  background-image: url(arrow-prev-svgrepo-com.svg);
+}
+
+.slide-text {
+  margin: auto;
+}
+
+.footer-text {
+  margin: auto auto;
+}
+
+@media (max-width: 755px) {
+  .carousel-indicators {
+    display: none;
+  }
+}
+
+footer {
+  border-top-style: solid;
+  border-top-color: rgb(175, 173, 173);
+  border-top-width: 0.5px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  padding-top: 1em;
+}
+
+.media-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.call-animation {
+  animation: call 2s ease 0s infinite normal forwards;
+}
+
+@keyframes call {
+  0%,
+  100% {
+    transform: translateX(0%);
+    transform-origin: 50% 50%;
+  }
+
+  15% {
+    transform: translateX(-30px) rotate(6deg);
+  }
+
+  30% {
+    transform: translateX(15px) rotate(-6deg);
+  }
+
+  45% {
+    transform: translateX(-15px) rotate(3.6deg);
+  }
+
+  60% {
+    transform: translateX(9px) rotate(-2.4deg);
+  }
+
+  75% {
+    transform: translateX(-6px) rotate(1.2deg);
+  }
+}
+
+.see-more{
+    color: rgb(251, 169, 102);
+    border-color:rgb(251, 169, 102);
+}
+
+.see>.btn-outline-primary {
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: rgb(251, 169, 102);
+    --bs-btn-hover-border-color: rgb(251, 169, 102);
+}
